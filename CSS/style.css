@@ -1,0 +1,222 @@
+/* All Impports */
+
+/* *********CSS Reset******* */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* *********Navigation Bar********** */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 50%;
+    /* background-color: black; */
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 2px 30px;
+}
+.nav-list .logo{
+    margin: 0px 40px;
+}
+.nav-list img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 28px;
+}
+.nav-list li{
+    list-style: none;
+    padding: 17px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.nav-list li a:hover{
+    color: gray;
+}
+.nav-right{
+    text-align: right;
+    width: 50%;
+    color: white;
+}
+.nav-right #search{
+    padding: 2px;
+    font-size: 17px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.btn-sm{
+    padding: 3px 9px;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.btn-sm:hover{
+    border: 2px solid rgb(177, 174, 174);
+    background-color: rgb(177, 174, 174);
+    
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../Images/2.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    right: 4%;
+    top: 20px;
+    cursor: pointer;
+}
+.b-line{
+    background-color: white;
+    height:2px;
+    width: 25px;
+    margin: 4px;
+}
+
+/* *************Body*********** */
+.firstSection{
+    display: flex;
+    height: 80vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 70%;
+    margin: auto;
+    height: 70%;
+}
+.firstHalf{
+    width:70%;  
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.firstHalf .btn{
+    padding: 3px 9px;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 15px;
+    background: none;
+    color: white;
+}
+.firstHalf .btn:hover{
+    border: 2px solid rgb(177, 174, 174);
+    color: rgb(177, 174, 174);
+}
+.secondHalf{
+    width: 30%;
+}
+.secondHalf img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 100px;
+    display: block;
+    margin: auto;
+}
+
+.para-big{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.para-small{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* ***********Sections Goes From Here************ */
+.section{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+}
+.sec-left{
+    flex-direction: row-reverse;
+}
+.paras{
+    width: 60%;
+    padding: 0px 23px;
+}
+.thumbnail{
+    width: 40%;
+}
+.thumbnail img{
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin: auto;
+    border: 2px solid brown;
+    border-radius: 12px;
+}
+
+/* **********Contact Section********** */
+.contact{
+    background-color: rgb(236, 241, 236);
+    height: 530px;
+}
+.contact h1{
+ text-align: center;
+ font-size: 36px;
+ padding: 23px 0px;
+}
+.contact-form{
+    max-width: 700px;
+    margin: auto;
+}
+.contact-element{
+    width: 100%;
+    margin: 5px 2px;
+    padding: 4px;
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+.contact-form .btn{
+    margin: 5px 2px;
+    padding: 4px;;
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    cursor: pointer;
+    color: black;
+}
+.contact-form .btn:hover{
+    background-color: rgb(223, 218, 218);
+}
+
+/* *******Fotter Section********** */
+.footer{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-footer{
+    
+    color: white;
+    font-size: 20px;
+}
+
